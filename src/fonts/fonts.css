@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Black";   /*Can be any text*/
+    src: local("AirbnbCerealBlack"),
+      url("./AirbnbCerealBlack.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Bold";   /*Can be any text*/
+    src: local("AirbnbCerealBold"),
+      url("./AirbnbCerealBold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Book";   /*Can be any text*/
+    src: local("AirbnbCerealBook"),
+      url("./AirbnbCerealBook.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "ExtraBold";   /*Can be any text*/
+    src: local("AirbnbCerealExtraBold"),
+      url("./AirbnbCerealExtraBold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Light";   /*Can be any text*/
+    src: local("AirbnbCerealLight"),
+      url("./AirbnbCerealLight.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Medium";   /*Can be any text*/
+    src: local("AirbnbCerealMedium"),
+      url("./AirbnbCerealMedium.ttf") format("truetype");}

@@ -1,0 +1,14 @@
+.tarjetaRegalo__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  margin-left: 190px;
+  padding-top: 490px;
+}
+.component__tarjetaRegalo{
+    height: 900px;
+    
+    border-radius: 10px;
+}

@@ -1,0 +1,139 @@
+.container__footer{
+    background-color: rgb(235, 233, 233);
+    width: 100%;
+}
+
+.container__columns--footer{
+
+ display: grid;
+ grid-auto-flow: column;
+
+}
+.column {
+    
+    display: flex;
+    flex-direction:column;
+    
+}
+.container__button--column:hover{
+    text-decoration: underline;
+   
+}
+.container__button--infoFooter:hover{
+    text-decoration: underline;
+}
+.container__info--footer{
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    padding-top: 15px;
+    justify-content: space-between;
+    border-top: 1px solid rgb(151, 151, 151);
+    
+}
+.container__info--footerLeft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    justify-content: space-between;
+    
+   
+}
+.dot{
+    height: 30px;
+    margin:5px;
+    padding-left: 6px
+}
+.copyrightIcon{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    
+}
+.AirbnbInc{
+  font-family: medium;
+}
+.container__info--footerRigth{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+.footerRigth__container--Espanol{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button__footerWorld{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    background-color: rgb(235, 233, 233);
+}
+.footerWorldIcon{
+    margin: 10px;
+    height: 20px;
+     width: 20px;
+ }
+ .spanishText{
+     font-family: bold;
+     text-decoration: underline solid black 1px;
+ }
+ .footerRigth__container--Euro{
+     display: flex;
+     flex-direction: row;
+ }
+ .euroButton{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin-right: 50px;
+     border: none;
+     background-color: rgb(235, 233, 233);
+ }
+ .euroText{
+     font-family: bold;
+     text-decoration: underline solid black 1px;
+ }
+ .euroIcon{
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+
+.footerRigth__container--Redes{
+    display: flex;
+    flex-direction: row;
+}
+.facebookButton{
+    border: none;
+    background-color: rgb(235, 233, 233);
+}
+.facebookIcon{
+    height: 20px;
+    width: 20px;
+}
+.twitterButton{
+    border: none;
+    background-color: rgb(235, 233, 233);
+}
+.twitterIcon{
+    height: 20px;
+    width: 20px;
+}
+.instagramButton{
+    border: none;
+    background-color: rgb(235, 233, 233);
+}
+.instagramIcon{
+    height: 20px;
+    width: 20px;
+}

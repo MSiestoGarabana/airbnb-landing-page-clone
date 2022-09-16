@@ -1,0 +1,18 @@
+.component__hospedar{
+    height: 900px;
+    
+    border-radius: 10px;
+}
+.hospedar__text{
+    font-size: 60px;
+    color: white;
+}
+.hospedar__textbuttonContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    margin: 50px;
+    margin-top: 490px ;
+  
+}

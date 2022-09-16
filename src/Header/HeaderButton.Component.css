@@ -1,0 +1,20 @@
+.header__button--middle{
+    color: white;
+    font-family: 'Book';
+    font-size: medium;
+    background-color: black;
+}
+.header__button--middle:hover{
+    text-decoration: underline;
+}
+.header__button--rigth{
+    padding: 15px;
+    color: white;
+    font-family: 'Bold';
+    font-size: medium;
+    background-color: black;
+}
+.header__button--rigth:hover{
+    background-color: rgb(32, 32, 32);
+    border-radius: 50px;
+}

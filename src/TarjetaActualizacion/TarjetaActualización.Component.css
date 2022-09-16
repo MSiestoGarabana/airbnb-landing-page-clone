@@ -1,0 +1,21 @@
+.component__tarjetaActualizacion{ 
+    size: 80%;
+    height: 1000px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.tarjetaActualizacion__textcontainer{
+    margin: 50px;
+    margin-left: 80px;
+    margin-top: 785px;
+}
+.tarjetaActualizacion__text--1{
+    color: black;
+    font-size: 30px;
+
+    
+}
+.tarjetaActualizacion__text--2{
+    color: black;
+    font-size: 30px;
+}
