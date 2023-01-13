@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.Input.Component.css";
+
 import searchIcon from "../Logos/searchIcon__header.png";
 
 import "../fonts/fonts.css";
@@ -7,7 +7,7 @@ import "../fonts/fonts.css";
 function HeaderInputTemplate(props) {
   return (
     <div
-      className="header__search--column"
+      className="search--column"
       style={{
         display: "flex",
         flexDirection: "column",
@@ -16,13 +16,13 @@ function HeaderInputTemplate(props) {
     >
       <button
         style={{ fontFamily: "medium" }}
-        className="search__column--input"
+        className="search__column--uptext"
       >
         {props.upButton}
       </button>
       <input
         style={{ fontFamily: "light" }}
-        className="search__input"
+        className="search__column--input"
         type="text"
         placeholder={props.inputText}
       ></input>
@@ -39,8 +39,8 @@ function InputComponent() {
       <HeaderInputTemplate upButton="Llegada" inputText="¿Cuándo?" />
       <HeaderInputTemplate upButton="Salida" inputText="¿Cuándo?" />
       <HeaderInputTemplate upButton="Viajeros" inputText="¿Cuántos?" />
-      <button className="searchButton">
-        <img className="searchImg" alt="img" src={searchIcon}></img>
+      <button className="search__button">
+        <img className="search__img" alt="img" src={searchIcon}></img>
       </button>
     </div>
   );

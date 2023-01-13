@@ -1,13 +1,13 @@
 import { React } from "react";
-import clsx from "clsx";
+
 import NavComponent from "./Header.Nav.Component";
 import InputComponent from "./Header.Input.Component";
 
 import "./Header.Component.css";
 
-function Header({ className }) {
+function Header() {
   return (
-    <div className={clsx(className, "container__header")}>
+    <div className="header__container">
       <NavComponent className="header__navComponent" />
       <div className="container__input">
         <InputComponent className="header__inputComponent" />

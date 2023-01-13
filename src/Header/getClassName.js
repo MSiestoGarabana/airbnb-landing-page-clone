@@ -5,23 +5,23 @@ export default function getClassName(prop) {
   switch (prop) {
     case "nav":
       isScrollUp() === true
-        ? (assignClassName = "header__nav")
-        : (assignClassName = "header__nav--down");
+        ? (assignClassName = "navcomponent")
+        : (assignClassName = "navcomponentdown");
       break;
     case "logo":
       isScrollUp() === true
-        ? (assignClassName = "header__nav--logo")
-        : (assignClassName = "header__nav--logoDown");
+        ? (assignClassName = "navcomponent__logo")
+        : (assignClassName = "navcomponent__logodown");
       break;
     case "midButtons":
       isScrollUp() === true
-        ? (assignClassName = "header__nav--midButtons")
-        : (assignClassName = "header__nav--midButtonsDown");
+        ? (assignClassName = "navcomponent__midbuttons")
+        : (assignClassName = "navcomponent__midbuttonsdown");
       break;
     case "rigthButtons":
       isScrollUp() === true
-        ? (assignClassName = "header__nav--rigthButtons")
-        : (assignClassName = "header__nav--rigthButtonsDown");
+        ? (assignClassName = "navcomponent__rigthbuttons")
+        : (assignClassName = "navcomponent__rigthbuttonsdown");
       break;
     default:
       console.log(

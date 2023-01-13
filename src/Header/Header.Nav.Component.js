@@ -21,28 +21,40 @@ function NavComponent() {
       <div className={getClassName("midButtons")}>
         <Headerbutton
           content="Alojamientos"
-          className="header__button--middle"
+          className="nav-component__button--middle"
         />
         <Headerbutton
           content="Experiencias"
-          className="header__button--middle"
+          className="nav-component__button--middle"
         />
         <Headerbutton
           content="Experiencias Online"
-          className="header__button--middle"
+          className="nav-component__button--middle"
         />
       </div>
       <div className={getClassName("rigthButtons")}>
         <Headerbutton
           content="Hazte anfitrión"
-          className="header__button--rigth"
+          className="nav-component__button--rigth"
         />
-        <button className="worldButton__container">
-          <img className="worldIcon" src={worldIcon} alt="img" />
+        <button className="nav-component__worldButton">
+          <img
+            className="nav-component__worldButton--img"
+            src={worldIcon}
+            alt="img"
+          />
         </button>
-        <button className="menuButton__container">
-          <img className="menuIcon" alt="img" src={menuIcon} />
-          <img className="userIcon" alt="img" src={userIcon} />
+        <button className="nav-component__hamburguer">
+          <img
+            className="nav-component__hamburguer--menuIcon"
+            alt="img"
+            src={menuIcon}
+          />
+          <img
+            className="nav-component__hamburguer--userIcon"
+            alt="img"
+            src={userIcon}
+          />
         </button>
       </div>
     </div>
