@@ -1,15 +1,15 @@
-.container__footer{
+.Footer{
     background-color: rgb(235, 233, 233);
     width: 100%;
 }
 
-.container__columns--footer{
+.Footer__ColumnsContainer{
 
  display: grid;
  grid-auto-flow: column;
 
 }
-.column {
+.Footer__Column{
     
     display: flex;
     flex-direction:column;
@@ -22,7 +22,7 @@
 .container__button--infoFooter:hover{
     text-decoration: underline;
 }
-.container__info--footer{
+.Footer__BottomStrap{
     
     display: flex;
     flex-direction: row;
@@ -32,7 +32,7 @@
     border-top: 1px solid rgb(151, 151, 151);
     
 }
-.container__info--footerLeft{
+.Footer__BottomStrap-Left{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -41,21 +41,21 @@
     
    
 }
-.dot{
+.Footer__dot{
     height: 30px;
     margin:5px;
     padding-left: 6px
 }
-.copyrightIcon{
+.Footer__copyrightIcon{
     height: 20px;
     width: 20px;
     margin-right: 10px;
     
 }
-.AirbnbInc{
+.Footer__AirbnbInc{
   font-family: medium;
 }
-.container__info--footerRigth{
+.Footer__BottomStrap-Rigth{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -63,77 +63,65 @@
     
  
 }
-.footerRigth__container--Espanol{
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    align-items: center;
-    
-}
-.button__footerWorld{
+
+.Footer__WorldEspañolButton{
     display: flex;
     flex-direction: row;
     align-items: center;
     border: none;
     background-color: rgb(235, 233, 233);
 }
-.footerWorldIcon{
+.Footer__WorldIconImg{
     margin: 10px;
     height: 20px;
      width: 20px;
  }
- .spanishText{
+ .Footer__SpanishText{
      font-family: bold;
      text-decoration: underline solid black 1px;
  }
- .footerRigth__container--Euro{
-     display: flex;
-     flex-direction: row;
- }
- .euroButton{
+ 
+ .Footer__euroButton{
      display: flex;
      flex-direction: row;
      align-items: center;
      margin-right: 50px;
      border: none;
      background-color: rgb(235, 233, 233);
- }
- .euroText{
+    }
+ .Footer__euroIcon{
+       margin: 10px;
+       height: 20px;
+       width: 20px;
+   }
+ .Footer__euroText{
      font-family: bold;
      text-decoration: underline solid black 1px;
  }
- .euroIcon{
-    margin: 10px;
-    height: 20px;
-    width: 20px;
-}
 
 
-.footerRigth__container--Redes{
-    display: flex;
-    flex-direction: row;
-}
-.facebookButton{
+
+.Footer__facebookButton{
     border: none;
     background-color: rgb(235, 233, 233);
 }
-.facebookIcon{
+.Footer__facebookImg{
     height: 20px;
     width: 20px;
 }
-.twitterButton{
+.Footer__twitterButton{
     border: none;
     background-color: rgb(235, 233, 233);
 }
-.twitterIcon{
+.Footer__twitterImg{
     height: 20px;
     width: 20px;
 }
-.instagramButton{
+.Footer__instagramButton{
     border: none;
     background-color: rgb(235, 233, 233);
 }
-.instagramIcon{
+.Footer__instagramImg{
     height: 20px;
     width: 20px;
 }
