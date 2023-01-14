@@ -14,12 +14,10 @@ function BusquedaFlexible({ className }) {
       }}
       className={clsx(className, "component__busquedaFlexible")}
     >
-      <div className="busquedaFlexible__textButton--container">
-        <p className="busquedaFlexible__text">Déjate guiar por la curiosidad</p>
-        <Button className="busquedaFlexible__button">
-          <p className="busquedaFlexible__button--text">Búsqueda Flexible</p>
-        </Button>
-      </div>
+      <p className="busquedaFlexible__text">Déjate guiar por la curiosidad</p>
+      <Button className="busquedaFlexible__button">
+        <p className="busquedaFlexible__button--text">Búsqueda Flexible</p>
+      </Button>
     </div>
   );
 }

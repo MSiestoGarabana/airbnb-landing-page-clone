@@ -15,10 +15,10 @@ function TarjetaActualización({ className }) {
       className={clsx(className, "component__tarjetaActualizacion")}
     >
       <div className="tarjetaActualizacion__textcontainer">
-        <p className="tarjetaActualizacion__text--1">
+        <p className="tarjetaActualizacion__text1">
           Los viajes están a punto de reinventarse
         </p>
-        <p className="tarjetaActualizacion__text--2">
+        <p className="tarjetaActualizacion__text2">
           Descubre todas las novedades el 11 de mayo a las 9:00 EDT (15:00 en
           España)
         </p>

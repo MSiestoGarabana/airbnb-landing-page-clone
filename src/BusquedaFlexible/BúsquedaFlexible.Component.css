@@ -6,17 +6,9 @@
    align-items: center;
    font-size: large;
    border-radius: 5px;
+   margin-top: 600px;
    
 }
-.busquedaFlexible__textButton--container{
- display: flex;
- flex-direction: column;
- align-items: center;
- margin-top: 600px;
- 
-
-}
-
 .busquedaFlexible__text{
    color: white;
    font-family: medium;
