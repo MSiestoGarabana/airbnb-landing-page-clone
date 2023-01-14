@@ -46,6 +46,26 @@
     background-color: black;
     color: white;
 }
+
+.futurasEscapadas__navBarButton{
+    background-color: white;
+    border: none;
+    font-family: medium;
+    font-size: medium;
+    padding: 20px;
+    padding-right: 30px;
+}
+.futurasEscapadas__navBarButton:hover{
+    background-color: rgb(187, 187, 187);
+    border-radius: 30px;
+}
+.futurasEscapadas__navBarButton:focus{
+    background-color: rgb(187, 187, 187);
+    border-radius: 30px;
+}
+
+
+
 .container__button--column{
     font-family: medium;
     background-color: rgb(235, 233, 233);

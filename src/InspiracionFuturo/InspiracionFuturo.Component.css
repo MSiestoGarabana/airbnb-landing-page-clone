@@ -1,13 +1,13 @@
-.inspiracionFuturasEscapadas__container{
+.futurasEscapadasComponent{
     width: auto;
-    border: none;
+   
 }
-.InspiraciónFuturasEscapadas__header{
+.futurasEscapadasComponent__header{
     margin-left: 9px;
     font-size: larger;
 }
 
-.InspiraciónFuturasEscapadas__buttons--container{
+.futurasEscapadasComponent__navBar{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -18,50 +18,32 @@
     border-bottom: 2px solid rgb(150, 150, 150);
 }
 
-.InspiraciónFuturo__buttons--button{
-    
-    background-color: white;
-    border: none;
-    font-family: medium;
-    font-size: medium;
-    padding: 20px;
-    padding-right: 30px;
-}
-.InspiraciónFuturo__buttons--button:hover{
-    background-color: rgb(187, 187, 187);
-    border-radius: 30px;
-}
-.InspiraciónFuturo__buttons--button:focus{
-    background-color: rgb(187, 187, 187);
-    border-radius: 30px;
-}
-
-.locationCard__Container{
+.futurasEscapadas__locationCard{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 
-.cityCountry__Container{
+.futurasEscapadas__locationCard-Container{
     padding: 4px;
     padding-left: 10px;
 }
 
-.city{
+.futurasEscapadas__locationCard-Container--city{
     font-family: medium;
     font-size: medium;
     margin-bottom: 0%;
 }
 
-.city:hover{
+.futurasEscapadas__locationCard-Container--city:hover{
     text-decoration: underline;
 }
 
-.country{
+.futurasEscapadas__locationCard-Container--country{
     font-family: medium;
     font-size: small;
     color: rgb(129, 129, 129);
     margin-top: 0%;
 }
-.country:hover{
+.futurasEscapadas__locationCard-Container--country:hover{
     text-decoration: underline;
 }

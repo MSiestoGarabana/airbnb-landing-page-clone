@@ -1,11 +1,20 @@
 import React from "react";
-function LocationsCard({ data, className }) {
+import locationsList from "./LocationsList";
+function LocationsCard({ state }) {
+  let data = locationsList[state].data;
   return (
-    <div className="locationCard__Container">
+    <div className="futurasEscapadas__locationCard">
       {data.map((location) => (
-        <div className="cityCountry__Container" key={location.city}>
-          <p className="city">{location.city}</p>
-          <p className="country">{location.country}</p>
+        <div
+          className="futurasEscapadas__locationCard-Container"
+          key={location.city}
+        >
+          <p className="futurasEscapadas__locationCard-Container--city">
+            {location.city}
+          </p>
+          <p className="futurasEscapadas__locationCard-Container--country">
+            {location.country}
+          </p>
         </div>
       ))}
     </div>
