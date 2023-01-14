@@ -1,11 +1,11 @@
-.card__container--descubreExperiencias{
+.descubreExperienciasCardComponent{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0%;
     
 }
-.component__descubreExperiencias{
+.descubreExperienciasComponent{
     border-radius: 10px;
     font-size: 35px;
 }

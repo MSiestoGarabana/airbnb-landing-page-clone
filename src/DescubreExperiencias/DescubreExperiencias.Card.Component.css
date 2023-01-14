@@ -1,17 +1,17 @@
-.descubreExperiencias__card{
+.descubreExperienciasCard{
    
    border-radius: 15px;
     width: 48%;
     height: 1000px;
     
 }
-.descubreExperiencias__textbuttonContainer{
+.descubreExperienciasCard__textbuttonContainer{
     margin: 80px;
     margin-top: 800px;
     
 }
 
-.descubreExperiencias__text{
+.descubreExperienciasCard__text{
     font-size: 25px;
    color: white
 }

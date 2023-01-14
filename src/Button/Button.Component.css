@@ -7,7 +7,7 @@
     font-family: medium;
     font-size: 20px;
 }
-.descubreExperiencias__button{
+.descubreExperienciasCard__button{
     background-color: white;
     border: none;
     border-radius: 10px;
@@ -15,7 +15,7 @@
     font-family: medium;
     font-size: 20px;
 }
-.descubreExperiencias__button:hover{
+.descubreExperienciasCard__button:hover{
     background-color:black;
     color: white;
 }

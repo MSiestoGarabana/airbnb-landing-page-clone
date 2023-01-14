@@ -5,9 +5,9 @@ import "./DescubreExperiencias.Component.css";
 
 function DescubreExperiencias({ className }) {
   return (
-    <div className={clsx(className, "component__descubreExperiencias")}>
+    <div className={clsx(className, "descubreExperienciasComponent")}>
       <p>Descubre las experiencias en Airbnb</p>
-      <div className="card__container--descubreExperiencias">
+      <div className="descubreExperienciasCardComponent">
         <DescubreExperienciasCard id="leftCard" buttonText="Experiencias">
           Actividades para tu viaje
         </DescubreExperienciasCard>

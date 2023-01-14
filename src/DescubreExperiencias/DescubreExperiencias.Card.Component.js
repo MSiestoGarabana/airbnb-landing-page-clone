@@ -17,11 +17,11 @@ function DescubreExperienciasCard({ children, ...props }) {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
-      className="descubreExperiencias__card"
+      className="descubreExperienciasCard"
     >
-      <div className="descubreExperiencias__textbuttonContainer">
-        <p className="descubreExperiencias__text">{children}</p>
-        <Button className="descubreExperiencias__button">
+      <div className="descubreExperienciasCard__textbuttonContainer">
+        <p className="descubreExperienciasCard__text">{children}</p>
+        <Button className="descubreExperienciasCard__button">
           {props.buttonText}
         </Button>
       </div>
