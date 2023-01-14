@@ -5,7 +5,7 @@ import "./InspiraciónPróximo.Component.css";
 
 function ProximosViajes({ className }) {
   return (
-    <div className={clsx(className, "component__proximosViajes")}>
+    <div className={clsx(className)}>
       <div className="header__proximosViajes">
         <h1>Inpiración para tu próximo viaje</h1>
       </div>

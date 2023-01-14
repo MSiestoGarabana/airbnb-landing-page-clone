@@ -50,21 +50,20 @@ function InspiraciónCard(props) {
 
   return (
     <button
-      className="InspiraciónCard__mainButton"
+      className="InspiraciónCard"
       style={{
-        backgroundColor: { backgroundColor },
         backgroundImage: `url(${backgroundImage})`,
         backgroundPosition: "0cm -7cm",
         backgroundSize: "cover",
       }}
     >
       <div
-        className="title__background"
+        className="InspiraciónCard__lowerpart"
         style={{ backgroundColor: backgroundColor }}
       >
-        <div className="title__container">
-          <p className="title">{props.title}</p>
-          <p className="subtitle">{props.subtitle}</p>
+        <div className="InspiraciónCard__titleContainer">
+          <p className="InspiraciónCard__title">{props.title}</p>
+          <p className="InspiraciónCard__subtitle">{props.subtitle}</p>
         </div>
       </div>
     </button>
