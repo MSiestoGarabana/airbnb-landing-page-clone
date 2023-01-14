@@ -7,7 +7,7 @@ import "./Hospedar.Component.css";
 function Hospedar({ className }) {
   return (
     <div
-      className={clsx(className, "component__hospedar")}
+      className={clsx(className, "HospedarComponent")}
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover",
@@ -15,7 +15,7 @@ function Hospedar({ className }) {
         backgroundPosition: "center",
       }}
     >
-      <div className="hospedar__textbuttonContainer">
+      <div className="HospedarComponent__textbuttonContainer">
         <p className="hospedar__text">¿Dudas sobre cómo hospedar?</p>
         <Button className="hospedar__button">
           Pregunta a un Super Anfitrión

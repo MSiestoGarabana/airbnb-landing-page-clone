@@ -1,13 +1,9 @@
-.component__hospedar{
+.HospedarComponent{
     height: 900px;
     
     border-radius: 10px;
 }
-.hospedar__text{
-    font-size: 60px;
-    color: white;
-}
-.hospedar__textbuttonContainer{
+.HospedarComponent__textbuttonContainer{
     display: flex;
     flex-direction: column;
     justify-content: baseline;
@@ -15,4 +11,8 @@
     margin: 50px;
     margin-top: 490px ;
   
+}
+.hospedar__text{
+    font-size: 60px;
+    color: white;
 }
