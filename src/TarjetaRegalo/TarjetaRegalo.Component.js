@@ -7,7 +7,7 @@ import backgroundImage from "../Images/IMGTarjetaRegalo.jpg";
 function TarjetaRegalo({ className }) {
   return (
     <div
-      className={clsx(className, "component__tarjetaRegalo")}
+      className={clsx(className, "tarjetaRegalo__component")}
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundRepeat: "no-repeat",
@@ -15,7 +15,7 @@ function TarjetaRegalo({ className }) {
         backgroundPosition: "rigth",
       }}
     >
-      <div className="tarjetaRegalo__container">
+      <div className="tarjetaRegalo__Textcontainer">
         <p>Compra tarjetas regalo en Airbnb</p>
         <Button className="tarjetaRegalo__button">Más Información</Button>
       </div>
